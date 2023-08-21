@@ -21,9 +21,9 @@ A Curriculum Vitae (CV) is an essential document used to showcase an individual'
 
 ## Project Structure
 
-[WIP/TBC] <b>pytexcv_c.c</n>: The encapsulating C program that manages input/output and invokes the Python script.
-[WIP/TBC] <b>pycv_template.tex</n>: LaTex template for the CV.
-[WIP] <b>cvbuilder.py</n>: The Python script that processes the input data and generates the LaTex document.
+[WIP/TBC] <b>pytexcv_c.c</n> : The encapsulating C program that manages input/output and invokes the Python script.
+[WIP/TBC] <b>pycv_template.tex</n> : LaTex template for the CV.
+[WIP] <b>cvbuilder.py</n> : The Python script that processes the input data and generates the LaTex document.
 <b>README.md</n>: This README file providing project information and instructions.
 
 ## Future Enhancements
