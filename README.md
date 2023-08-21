@@ -1,7 +1,7 @@
 # PyTex_CV
 # CV Generator in Python encapsulated in a C Program
 
-This project aims to create a command-line tool that generates a Curriculum Vitae (CV) in LaTex format from the given information and then converts it to a PDF using PDFLaTeX. The project was started on August 21, 2023, by Tommi Bimbao.
+This project aims to create a command-line tool that generates a Curriculum Vitae (CV) in LaTex format from the given information and then converts it to a PDF using PDFLaTeX. The project was started on August 21, 2023, by tbimbato.
 
 ## Introduction
 
