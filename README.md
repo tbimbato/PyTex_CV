@@ -18,3 +18,22 @@ A Curriculum Vitae (CV) is an essential document used to showcase an individual'
 - C compiler (such as GCC)
 - Python 3.x
 - PDFLaTeX (TeX Live distribution recommended)
+
+
+## Future Enhancements
+
+1. Implement more customization options for the LaTex template.
+2. Add support for additional output formats (e.g., HTML, Markdown).
+3. Create a graphical user interface (GUI) for easier interaction.
+
+## Contributors
+
+- Tommi Bimbato (Project Creator)
+
+## License
+
+This project is dedicated to the public domain under the Creative Commons Zero (CC0) license. You can find more information about CC0 [here](https://creativecommons.org/publicdomain/zero/1.0/) or in the LICENSE file in this repo.
+
+---
+
+**Note:** This README is a work in progress and will be updated as the project develops. Please refer to the repository for the most up-to-date information and instructions.
