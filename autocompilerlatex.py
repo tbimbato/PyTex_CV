@@ -1,0 +1,1 @@
+# Wrote this loope for complete the latex template easily
