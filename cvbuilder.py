@@ -16,7 +16,7 @@ edu_end_date = []
 e_count = -1
 edu_complete = []
 
-# EXP:
+# EXP LOOP:
 exp_title = []
 exp_start_date = []
 exp_end_date = []
@@ -92,8 +92,44 @@ while True:
         print("the answer differ from Y or N or you simply want to go in the next step.")
     break
 
-# END OF EXP LOOP
+# FIELD OF INTEREST
 
-set_value_CV = 231
+field_of_interest = input("Describe your field of interest")
+
+
+# SKILLS LOOP
+
+# HARDSKILLS
+h_skill = []
+h_skill = -1
+h_skill_list = []
+
+while True:
+
+    h_skill_q = input("do you want to add a Hard Skill? (Y/N)")
+    if h_skill_q == "Y" :
+        h_skill = input("type your Hard Skill")
+        h_skill_list.append(h_skill)
+        continue
+
+    else: print("the answer differ from Y or N or you simply want to go in the next step.")
+    break
+
+#SOFTSKILLS
+
+s_skill = []
+s_skill = -1
+s_skill_list = []
+
+while True:
+
+    s_skill_q = input("do you want to add a Soft Skill? (Y/N)")
+    if s_skill_q == "Y" :
+        s_skill = input("type your Soft Skill")
+        s_skill_list.append(s_skill)
+        continue
+
+    else: print("the answer differ from Y or N or you simply want to go in the next step.")
+    break
 
 
