@@ -42,7 +42,7 @@ title = input("TYPE YOUR TITLE: . . . \n eg.: \"architect\" or \"doctor\" write 
 print("now it's time to have a little summary of yout experiences and goals.. ")
 summary = input("may you write down something 'bout you?")
 
-print("perfect, now lets talk about your education")
+print("now lets talk about your education")
 
 # EDU LOOP:
 while True:
