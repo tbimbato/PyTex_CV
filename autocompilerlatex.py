@@ -9,4 +9,4 @@ for lines in li:
     print(lines)
 with open("texcompiler.py", "w") as ttemplate:
     for lines in li:
-        ttemplate.write("fhand.write(r\"" + lines + "\"" " + r" + "\"n\")" + "\n")
+        ttemplate.write("fhand.write(r\"" + lines + r'"' + r' + "\n")' + "\n")

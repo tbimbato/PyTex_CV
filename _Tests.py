@@ -1,31 +1,31 @@
+# EDU LOOP:
 
-name = "gigi"
-title = "prova"
+# EDU:
+edu_title = []
+edu_start_date = []
+edu_end_date = []
+e_count = -1
+edu_complete = []
 
-explist = ["bachelor", "master", "stage"]
+while True:
 
-with open("test.tex", "w") as f:
-    f.write("\\documentclass[a4paper, 9")
-    pt]{article}
-    \usepackage[utf8]
-    {inputenc}
-    \usepackage[left = 1.75
-    cm, right = 2.5
-    cm, top = 1.25
-    cm, bottom = 2.5
-    cm]{geometry}
-    \usepackage
-    {enumitem}
-    
+    e_add = input("do you want to add an educational title? (Y/N)")
+    if e_add == "Y":
+        e_title = input("whats your educational title (eg. Bachelor in Psichology or Surveyor diploma)")
+        edu_title.append(e_title)
+        e_start_date = input("when you started? (format should be = MONTH - YYYY eg: Agoust - 2004")
+        edu_start_date.append(e_start_date)
+        e_end_date = input("when you finished? (format should be = MONTH - YYYY eg: Agoust - 2004")
+        edu_end_date.append(e_end_date)
+        e_count = e_count + 1
+        edu_complete.append([edu_title[e_count], edu_start_date[e_count], edu_end_date[e_count]])
+        continue
 
-    f.write("\\documentclass{article}\n")
-    f.write("\\begin{document}\n")
-    f.write("\\section*{testttt}\n")
-    f.write("\\textbf{Nome}: " + name + " \\\\\n")
-    f.write("\\textbf{Titolo}: " + title + " \\\\\n")
-    f.write("\\textbf{Esperienza}:\n")
-    f.write("\\begin{itemize}\n")
-    for exp in explist:
-        f.write("    \\item " + exp + "\n")
-    f.write("\\end{itemize}\n")
-    f.write("\\end{document}\n")
+    else:
+        print("the answer differ from Y or N or you simply want to go in the next step.")
+    break
+
+print(edu_complete)
+print(edu_title)
+print(edu_start_date)
+print(edu_end_date)
