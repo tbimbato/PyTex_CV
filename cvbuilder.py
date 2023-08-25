@@ -139,6 +139,7 @@ while True:
 # --------- TEX BUILDER ---------
 
 tempedu = -1
+tempexp = -1
 
 with open("test_OUTPUT.tex", "w") as fhand:
     fhand.write(r"\documentclass[a4paper, 9pt]{article}" + "\n")
@@ -183,13 +184,17 @@ with open("test_OUTPUT.tex", "w") as fhand:
 
     for edux in edu_title:
         tempedu = tempedu +1
-        fhand.write('\item ' + edu_title[tempedu] + '--' + edu_start_date[tempedu] + '--' + edu_end_date[tempedu] + "\n")
+        fhand.write('\item ' + edu_title[tempedu] + ' -- ' + edu_start_date[tempedu] + ' -- ' + edu_end_date[tempedu] + "\n")
 
     fhand.write(r"\end{itemize}" + "\n")
     fhand.write(r"" + "\n")
     fhand.write(r"" + "\n")
     fhand.write(r"\section*{Experience}" + "\n")
     fhand.write(r"" + "\n")
+    for expx in exp_title:
+        tempexp = tempexp +1
+        fhand.write(r'\subsection*{' + exp_title[tempexp]+ "}\n")
+        fhand.write(r"\subsubsection*{"+ exp_start_date[tempexp] + "}" + "\n")
     fhand.write(r"\subsection*{EXP1 TITLE!!!!!}" + "\n")
     fhand.write(r"\subsubsection*{EXP1 DATES!!!!!}" + "\n")
     fhand.write(r"" + "\n")
