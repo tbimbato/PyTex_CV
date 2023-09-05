@@ -1,5 +1,5 @@
 # CV Maker is a Tommi Bimbato's program to create a ".tex" CV based on the information given by the inputs below
-
+# test!
 # variables:
 
 # name
@@ -105,6 +105,7 @@ h_skill_count = -1
 h_skill_list = []
 
 while True:
+
 
     h_skill_q = input("do you want to add a Hard Skill? (Y/N)")
     if h_skill_q == "Y":
